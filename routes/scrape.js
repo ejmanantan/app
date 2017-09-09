@@ -4,7 +4,7 @@ var superagent = require('superagent')
 
 
 router.get('/', function(req, res, next) {
-var url = 'https://betkorea.com/#/sports/result'
+
 	superagent
 	.get(url)
 	.query()
